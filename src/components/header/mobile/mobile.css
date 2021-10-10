@@ -1,0 +1,17 @@
+.mobile {
+  background-color: white;
+  height: 100vh;
+  width: 60vh;
+  position: absolute;
+  right: 0px;
+  /* background-color: red; */
+  top: -6px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+}
