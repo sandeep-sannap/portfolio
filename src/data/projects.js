@@ -1,35 +1,49 @@
 export const ProjectData = [
   {
     id: 1,
-    title: "Random Project 1",
+    title: "VegShop",
     about:
-      "lorem epsum ddsggggggggwwwwwwwwwww tttttttt uuuuuuuuuuuuuu iiiiiiiiiii   fgghgf  f  ",
-    tags: ["Reactjs", "Nodejs"],
-    demo: "www.google.com",
-    github: "www.github.com",
-    image:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pjxg0Tpg4MuGlrPzQEvRlgHaE8%26pid%3DApi&f=1",
+      "Vegetable and Fruit Ecommerce site with admin product CRUD operation.",
+    tags: [
+      "Reactjs",
+      "Nodejs",
+      "Express.js",
+      "Mongoose",
+      "React-Bootstrap",
+      "MongoDB",
+      "Stripe",
+      "Redux",
+      "Formik",
+    ],
+    demo: "https://vegshop.netlify.app",
+    github: "https://github.com/sandy-50/VegShop-frontend",
+    image: require("../asset/projects/vegshop.PNG").default,
   },
   {
     id: 2,
-    title: "Random Project 2",
-    about:
-      "lorem epsum ddsggggggggwwwwwwwwwww tttttttt uuuuuuuuuuuuuu iiiiiiiiiii fgghgf f ",
-    tags: ["Reactjs", "Nodejs", "HTML"],
-    demo: "www.google.com",
-    github: "www.github.com",
-    image:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pjxg0Tpg4MuGlrPzQEvRlgHaE8%26pid%3DApi&f=1",
+    title: "Xpenser",
+    about: "Daily food, education, health etc. expenses tracking website.",
+    tags: ["CSS", "Reactjs", "Local Storage"],
+    demo: "https://xpenser1.netlify.app/",
+    github: "https://github.com/sandy-50/xpenser",
+    image: require("../asset/projects/xpenser.PNG").default,
   },
   {
     id: 3,
-    title: "Random 3",
-    about:
-      "lorem epsum ddsggggggggwwwwwwwwwww tttttttt uuuuuuuuuuuuuu iiiiiiiiiii fgghgf f",
-    tags: ["CSS", "Reactjs", "Nodejs", "Javascript", "HTML", "MongoDb"],
-    demo: "www.google.com",
-    github: "www.github.com",
-    image:
-      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pjxg0Tpg4MuGlrPzQEvRlgHaE8%26pid%3DApi&f=1",
+    title: "IPL Dashboard",
+    about: "History of all ipl teams from 2008 to 2020",
+    tags: ["Reactjs", "Nodejs", "CSS", "MongoDB", "Express.js", "Mongoose"],
+    demo: "https://dashboard-ipl.netlify.app",
+    github: "https://github.com/sandy-50/ipl-react",
+    image: require("../asset/projects/ipl-dashboard.PNG").default,
+  },
+  {
+    id: 4,
+    title: "Portfolio",
+    about: "My portfolio",
+    tags: ["Reactjs", "CSS"],
+    demo: "https://sandeep-sannap-portfolio.netlify.app/",
+    github: "https://github.com/sandy-50/portfolio",
+    image: require("../asset/projects/portfolio.PNG").default,
   },
 ];

@@ -2,7 +2,7 @@ import React from "react";
 import About from "./about/About";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
-import Work from "./work/Work";
+// import Work from "./work/Work";
 import Contact from "./contact/Contact";
 
 import "./body.css";
@@ -21,10 +21,10 @@ export default function Body() {
       <section id="skills">
         <Skills />
       </section>
-
+      {/* 
       <section id="work">
         <Work />
-      </section>
+      </section> */}
 
       <section id="contact">
         <Contact />

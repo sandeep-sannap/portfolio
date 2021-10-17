@@ -18,6 +18,7 @@ export default function Contact() {
             download
             href={require("../../../asset/icons/facebook.png").default}
           >
+            <i className="fi-rr-cloud-download download-icon" />
             Download Resume
           </a>
         </div>

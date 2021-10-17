@@ -14,11 +14,11 @@ export default function Web() {
           <i class="fas fa-laptop-code option-icon"></i> Skills
         </a>
       </div>
-      <div className="web-option">
+      {/* <div className="web-option">
         <a href="#work">
           <i class="fas fa-briefcase option-icon"></i>Work
         </a>
-      </div>
+      </div> */}
       <div className="web-option">
         <a href="#contact">
           <i class="fas fa-address-book option-icon"></i>Contact
