@@ -16,7 +16,7 @@ export default function Contact() {
         <div className="download-button">
           <a
             download
-            href={require("../../../asset/icons/facebook.png").default}
+            href={require("../../../asset/sandeep-sannap-resume.pdf").default}
           >
             <i className="fi-rr-cloud-download download-icon" />
             Download Resume
